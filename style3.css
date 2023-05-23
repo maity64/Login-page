@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(to right, skyblue, 40%, blue, 60%, green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 350px;
+  height: 550px;
+  background-color: lightgray;
+  position: relative;
+}
+
+input {
+  margin: 15px;
+  border-radius: 10px;
+  /* border: 1px solid #ccc;*/
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+label{
+  position: absolute;
+  left: 20%;
+  top: 14%;
+}
+#label2{
+  position: absolute;
+  left: 20%;
+  top: 25%;
+}
+button{
+  width: 60%;
+  height: 6%;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, green, 60%, blue, skyblue);
+  color: white;
+}
+a{
+  text-decoration: none;
+}
